@@ -39,15 +39,19 @@
 .menu-section_link::after {
     content: '|';
     margin-left: 10px;
+    color: #30336b;
 }
 
 .menu-section_link::before {
     content: '|';
     margin-right: 10px;
+    color: #30336b;
 }
 
 .menu-section_link:hover {
     background-color: #22a6b3;
+    border-right: 1px solid cyan;
+    border-left: 1px solid cyan;
 }
 
 .sub-menu {
